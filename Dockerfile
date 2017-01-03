@@ -1,7 +1,6 @@
 FROM phusion/baseimage:0.9.19
-MAINTAINER CaiRan <rancai.fqj@gmail.com>
+MAINTAINER Zhan.Shi <g.shizhan.g@gmail.com>
 
-#This is written by my teacher Zhan Shi<g.shizhan.g@gmail.com> ,and I will write my own version after I figure out,just for reference.
 
 RUN apt-get update && apt-get install -y curl python3.5 python3.5-dev
 RUN curl -kL https://bootstrap.pypa.io/get-pip.py | python3.5
