@@ -14,4 +14,4 @@ WORKDIR /notebooks
 
 EXPOSE 8888
 CMD ["/bin/sh", "-c", "/usr/local/bin/jupyter-notebook --no-browser --ip=0.0.0.0 --notebook-dir=/notebooks"]
-Contact GitHub API Training Shop Blog About
+#Contact GitHub API Training Shop Blog About
